@@ -20,18 +20,15 @@ class ViewController: UIViewController {
     var operacion : String = ""
     var ans : String = ""
     
-    @IBAction func trigonometriaBtn(_ sender: UIButton) {
-        var result : Double = 0
-        if (operacion == "Cos(X)"){
-            result = cos(operando1)
-        } else if (operacion == "Sin(X)"){
-            result = sin(operando1)
-        }else {
-            result = tan(operando1)
-        }
-        pantalla.text! = String(format:"%g", result)
-        
+    
+
+    @IBAction func porcentaje() {
+        let numero : NSString = pantalla.text! as NSString
+        operando1 = numero.doubleValue
+        let resultado = operando1 / 100
+        pantalla.text = String(format: "%g", resultado)
     }
+    
     @IBAction func copiaNumeroAnterior(_ sender: UIButton) {
         pantalla.text = ans
         
@@ -102,6 +99,14 @@ class ViewController: UIViewController {
             resultado = operando1 * operando2
         }else if operacion == "^"{
             resultado = pow(operando1, operando2)
+        }else if (operacion == "Cos(X)"){
+            resultado = cos(operando1 / 180 * M_PI)
+        } else if (operacion == "Sin(X)"){
+            resultado = sin(operando1 / 180 * M_PI)
+        }else if(operacion == "Tan(X)"){
+            resultado = tan(operando1 / 180 * M_PI)
+        }else if operacion == "%"{
+            resultado = operando1 / 100
         }else {
             resultado = sqrt(operando2)
         }

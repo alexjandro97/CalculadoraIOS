@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E37CB83D1F8CB9AB00D02EF7 /* ventanaProgramadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37CB83C1F8CB9AB00D02EF7 /* ventanaProgramadorViewController.swift */; };
 		E3A273271F7A30470097FEEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A273261F7A30470097FEEC /* AppDelegate.swift */; };
 		E3A273291F7A30470097FEEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A273281F7A30470097FEEC /* ViewController.swift */; };
 		E3A2732C1F7A30480097FEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A2732A1F7A30480097FEEC /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E37CB83C1F8CB9AB00D02EF7 /* ventanaProgramadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ventanaProgramadorViewController.swift; path = ../ventanaProgramadorViewController.swift; sourceTree = "<group>"; };
 		E3A273231F7A30470097FEEC /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A273261F7A30470097FEEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3A273281F7A30470097FEEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				E3A273261F7A30470097FEEC /* AppDelegate.swift */,
 				E3A273281F7A30470097FEEC /* ViewController.swift */,
+				E37CB83C1F8CB9AB00D02EF7 /* ventanaProgramadorViewController.swift */,
 				E3A2732A1F7A30480097FEEC /* Main.storyboard */,
 				E3A2732D1F7A30480097FEEC /* Assets.xcassets */,
 				E3A2732F1F7A30490097FEEC /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A273291F7A30470097FEEC /* ViewController.swift in Sources */,
+				E37CB83D1F8CB9AB00D02EF7 /* ventanaProgramadorViewController.swift in Sources */,
 				E3A273271F7A30470097FEEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				E3A273371F7A30490097FEEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
